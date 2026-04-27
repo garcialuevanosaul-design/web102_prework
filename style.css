@@ -22,14 +22,14 @@ body {
 .stats-container {
     display: flex;
     align-items: center;
-    
-    .pointer {
-        cursor: pointer;
-    }
 
-    .hover-effect:hover {
-        box-shadow: 0 0 30px lightblue;
-    }
+    cursor: pointer;
+
+
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
